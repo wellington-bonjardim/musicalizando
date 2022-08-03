@@ -5,23 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/438b2365a2.js" crossorigin="anonymous"></script>
     <title>Clone Spotify</title>
 </head>
 <body>
-    <!--DESENVOLVIMENTO DE UM CLONE DO SPOTIFY-->
-    <div>
-        <!--Inserir uma imagem aqui-->
-    </div>
+    <div class="container">
+            
+        <img src="imagens/plush.jpg">
+        
+        <div class="descricao">
+            <h2>Plush</h2>
+            <i>Stone Temple Pilots</i>
+        </div>
 
-    <div class="barra-de-progresso">
-        <!--Incluir aqui a barra de progresso da música-->
-    </div>
+        <div class="duracao">
+            <div class="barra">
+                <progress value="0" max="1"></progress>
+                <div class="ponto"></div>
+            </div>
 
-    <div class="botoes">
-        <button>Botão Play</button>
-        <button>Botão Pausar</button>
-        <button>Botão Voltar</button>
+            <div class="tempo">
+                <p class="inicio">00:00</p>
+                <p class="fim">05:13</p>
+            </div>
+        </div>
+
+        <div class="player">
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-solid fa-circle-play"></i>
+            <i class="fa-solid fa-circle-pause"></i>
+            <i class="fa-solid fa-forward-step"></i>
+        </div>
+
     </div>
+    
+    <audio src="musicas/Plush (2017 Remaster).mp3"></audio>
 
     <script src="script.js"></script>
 </body>
