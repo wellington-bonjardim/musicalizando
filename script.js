@@ -59,3 +59,5 @@ botaoVoltar.addEventListener('click', voltarMusica)
 botaoAvancar.addEventListener('click', avancarMusica)
 musica.addEventListener('timeupdate', tempoMusica)
 musica.addEventListener('loadeddata', duracao)
+
+//Desenvolver uma lógica para pular e voltar as músicas!
