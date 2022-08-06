@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-Neste projeto, o usuário é capaz de reproduzir as músicas presentes num Array fixo. O usuário pode reproduzir a música, assim como pausar, pular ou voltar.
+Neste projeto, o usuário é capaz de reproduzir as músicas presentes num Array fixo. O usuário pode reproduzir as músicas, assim como pausar, pular ou voltar.
 
 Ao desenvolver este projeto, foi possível abordar situações como:
 - Definição de funções;
