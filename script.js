@@ -1,4 +1,4 @@
-//----------------------- VARIÁVEIS ----------------------- //
+//----------------------- VARIÁVEIS -----------------------//
 let musica = document.querySelector('audio')
 let botaoVoltar = document.querySelector('.botao-voltar')
 let botaoPlay = document.querySelector('.botao-play')
@@ -12,7 +12,7 @@ let nomeMusica = document.querySelector('.descricao h2')
 let nomeArtista = document.querySelector('.descricao i')
 let indexMusica = 0
 
-//----------------------- BANCO DE MÚSICAS ----------------------- //
+//----------------------- BANCO DE MÚSICAS -----------------------//
 let bancoMusicas = [
     {titulo:'Somebody to Love', artista: 'Queen', src: 'musicas/Somebody to Love.mp3', img:'imagens/Somebody.jpg'},
 
@@ -46,7 +46,7 @@ let bancoMusicas = [
 
 ]
 
-//----------------------- FUNÇÕES ----------------------- //
+//----------------------- FUNÇÕES -----------------------//
 function renderizarMusica(index) {
     musica.setAttribute('src', bancoMusicas[index].src)
     musica.addEventListener('loadeddata', () => {
@@ -93,7 +93,7 @@ function corrigeNAN() {
     tempoTotal.textContent = atualizaTempo(Math.floor(musica.duration))
 }
 
-//----------------------- EVENTOS ----------------------- //
+//----------------------- EVENTOS -----------------------//
 botaoPlay.addEventListener('click', tocarMusica)
 botaoPausar.addEventListener('click', pausarMusica)
 musica.addEventListener('timeupdate', tempoMusica)
